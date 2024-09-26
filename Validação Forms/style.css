@@ -1,0 +1,73 @@
+/*Estilos para centralizar o formulário na página*/
+body{
+    display: flex;/*utiliza flexbox para facilitar o alinhamento*/
+    justify-content: center;/*Centraliza horizontalmente o formulário*/
+    align-items: center;/*Centraliza verticalmente o formulário*/
+    height: 100vh;/*Define a ALTURA DA PÁGINA COMO 100% DA ALTURA da janela*/
+    background-color: #f7f7f7;/*cor de fundo clara*/
+    margin: 0;/*Remove margens padrão do corpo*/
+    font-family: Arial, Helvetica, sans-serif;/*Define a fonte padrão*/
+}
+/*Estilos do contêiner do formulário*/
+.form-container{
+   /* background-color: #fff;Fundo branco para o formulário*/
+    background: linear-gradient(to right, #e3f2fd, #e8eaf6);
+    padding: 20px;/*Espaçamento interno ao redor dos elementos*/
+    border-radius: 10px;/*Arendonda os cantos do formulário*/
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);/*Adiciona sombra suave ao redor do formulário*/
+    width: 300px;/*Define a largura fixa do formulário*/
+}
+
+/*Estilo para o título do formulário*/
+h2{
+    text-align: center;/*Centraliza o texto do título*/
+    margin-bottom: 20px;/*Adiciona um espaçamento inferior*/
+    font-size: 1.5em;/*aumenta o tamanho da fonte do título*/
+    color: #333;/*define a cor do texto*/
+
+}
+
+/*Estilos para os rótulos (label)*/
+label{
+    display: block;/*Exibe o rótulo em bloco para que ocupe toda a largura*/
+    margin-bottom: 5px;/*Espaçamento inferior entre o rótulo e o campo de input*/
+    font-size: 0.9em;/*Define um tamanho de fonte um pouco menor para os rótulos*/
+    color: #333;/*cor escura para os rótulos*/
+}
+
+/*Estilos para os campos de input*/
+input[type="text"], input[type="email"], input[type="password"]{
+    width: 100%; /*Faz o input ocupar 100% da largura do contêiner*/
+    padding: 10px;/*Espaçamento interno nos campos de input*/
+    margin-bottom: 15px;/*Espaçamento inferior entre os campos*/
+    border: 1px solid #ccc;/*Borda cinza clara*/
+    border-radius: 5px;/*Arredonda os cantos dos campos de input*/
+    font-size: 1em;
+    box-sizing: border-box;
+}
+
+/*Estilo para obotão de envio*/
+button{
+    width: 100%;
+    padding: 10px;/*Espaçamento interno dentro do botão*/
+    background-color: #009688;/*#1a73e8*/
+    color: white;
+    border: none;/*remove bordas do botão*/
+    border-radius: 20px;/*arrendonda os cantos do botão 5px*/
+    font-size: 1em;
+    cursor: pointer;/*Mostra o cursor de "mão" ao passar sobre o botão*/
+}
+
+/*Efeito ao passar o mouse sobre o botão*/
+button:hover{
+    background-color: #0c5abf;/*Altera a cor ao passar o mouse*/
+}
+
+/*Estilo para a mensagem de erro*/
+#erro-message{
+    color: red;/*Cor vermela para a mensagem de erro*/
+    font-size: 0.9em;/*Define o temanho da fonte para a mensagem de erro*/
+    margin-top: 10px;/*Adiciona espaçamento acima da mensagem de erro*/
+    text-align: center;/*Centraliza o texto de mensagem de erro*/
+
+}
