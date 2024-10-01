@@ -1,0 +1,39 @@
+
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-attachment: #f0f0f0;
+    margin: 0;
+}
+
+.semaforo{
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.luz{
+    width: 100px;
+    height: 100px;
+    background-color: #333;
+    border-radius: 50%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    transition: background-color 0,5s;
+}
+
+#vermelho.active{
+    background-color: red;
+}
+
+#amarelo.active{
+    background-color: yellow;
+}
+
+#verde.active{
+    background-color: green;
+}
