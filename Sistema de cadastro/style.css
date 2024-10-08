@@ -1,0 +1,75 @@
+/*Define o estilo básico para o corpo da página*/
+body {
+    /*Define a família de fontes como Arial ou, se não disponível, sans-serif*/
+    font-family: Arial, sans-serif; 
+    background-color: #f0f0f0; /* Cor de fundo do corpo da página */
+    padding: 20px; /* Adiciona um preenchimento em torno do conteúdo do corpo */
+    
+}
+ /*Estilos para o container principal da página*/
+ .container{
+    /*Define uma largura máxima para o container*/
+    max-width: 800px;
+
+    /*Centraliza o container horizontalmente*/
+    margin: 0 auto;
+
+    /*Define a cor de fundo do container*/
+    background-color: #fff;
+
+    /*Adiciona preenchimento interno ao container*/
+    padding: 20px;
+
+    /*Arrendo os cantos do container*/
+    border-radius: 8px;
+
+    /*Adiciona uma sombra leve ao redor do container*/
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0,1);
+ }
+
+ /* Estilos para os títulos (h1 e h2)*/
+ h1,h2{
+    /*Define a cor do texto dos títulos*/
+    color: #333;
+ }
+
+ /* Estilos para os inputs e o botâo dentro dos formulários*/
+ form input, form button{
+    /*Adiciona margem entre os elementos do formulários*/
+    margin: 5px;
+
+    /*Define o preenchimento interno */
+    padding: 8px;
+    font-size: 16px;
+ }
+
+ form button{
+    /* Define a cor de fundo do botão*/
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+ }
+
+ /*Estilos para a lista de itens (ul)*/
+ ul{
+    /* Remove os marcadores de lista padrão*/
+    list-style-type: none;
+
+    /*Remove o preenchimento padrão da lista*/
+    padding: 0;
+ }
+
+ /* Estilos para os itens individual da lista (li)*/
+ li{
+    /*Adiciona preenchimento interno aos itens*/
+    padding: 10px;
+    /*Adiciona um borda inferior aos itens da lista para separá-los*/
+    border-bottom: 1px solid #ddd;
+ }
+
+ /*Remove a borda inferior do último item da lista*/
+ li:last-child{
+    /*Remove a borda inferior do último item*/
+    border-bottom: none;
+ }
