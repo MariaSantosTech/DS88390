@@ -1,5 +1,5 @@
 // Inicializando a variável que controla qual luz está acesa
-let luzAzul = 0; // 0 - vermelho, 1- Amarelo, 2- Verde
+let luzAtul = 0; // 0 - vermelho, 1- Amarelo, 2- Verde
 
 //Função que muda as luzes do semáforo
 function  mudarLuz() {
