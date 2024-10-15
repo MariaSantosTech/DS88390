@@ -1,0 +1,14 @@
+body{
+    font-size: Arial, sans-serif;/* define a fonte*/
+    background-color: #f4f4f4;/* cor de fundo suave*/
+    display: flex;/*usado para */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+
+}
+
+.container{
+    background-color: gray;
+}
